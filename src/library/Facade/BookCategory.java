@@ -20,14 +20,8 @@ public class BookCategory implements IBookFacade {
     @Override
     public boolean isEmpty() {
         
-        if(this.bookcategory.isEmpty())
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        if(this.bookcategory.isEmpty()){return false;}
+        else{return true;}
     }
 
 }
